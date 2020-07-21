@@ -2,5 +2,4 @@
 
 readonly BUILD_DIR=$1
 cd ${BUILD_DIR}
-bundle install
-bundle exec rake assets:precompile
+rake assets:precompile
